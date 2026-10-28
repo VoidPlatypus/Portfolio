@@ -250,31 +250,7 @@
     .about-card li:first-child { border-top: 0; }
 
 
-    .card-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    gap: 1.5rem;
-    }
-    .card {
-    background: var(--surface);
-    border: 1px solid var(--border);
-    border-radius: var(--radius);
-    padding: 1.8rem;
-    transition: transform var(--transition), border-color var(--transition), background-color var(--transition);
-    }
-    .card:hover { transform: translateY(-4px); border-color: var(--accent); background: var(--surface-2); }
-    .card p { color: var(--text-muted); }
-
-    .tags { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1rem; }
-    .tags li {
-    font-family: var(--font-mono);
-    font-size: 0.78rem;
-    padding: 0.25rem 0.7rem;
-    color: var(--accent);
-    background: var(--accent-soft);
-    border: 1px solid rgba(94, 234, 212, 0.25);
-    border-radius: 999px;
-    }
+    
 
 
     .timeline {
